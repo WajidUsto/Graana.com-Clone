@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Main-font";
+    color: #57656B;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Main-font";
+    src: url(./Assets/Fonts/Poppins/Poppins-Medium.ttf);
+}
+
+#nav-links h2 a{
+    font-size: 15px;
+
+}
