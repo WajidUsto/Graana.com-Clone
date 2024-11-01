@@ -16,7 +16,12 @@ body{
     font-family: "Main-font";
     src: url(./Assets/Fonts/Poppins/Poppins-Medium.ttf);
 }
-
+#nav{
+    position: fixed;
+    background: white;
+    top: 0;
+    width: 100%;
+}
 #nav-links h2 a{
     font-size: 14px;
     padding: 10px 12px;
@@ -29,12 +34,12 @@ body{
     padding: 9px 13px;
     border-radius: 10px;
 }
-#main-banner{
+/* #main-banner{
     background-image: url(./Assets/Imgs/main-banner.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 
 
@@ -69,7 +74,7 @@ body{
         gap: 2px;
     }
     #nav-links h2 a{
-        font-size: 13px;
+        font-size: 12px;
         padding: 10px 5px;
     }
     #nav-links-end h2 a{
@@ -118,6 +123,8 @@ body{
     #nav{
         display: none;
     }
-
+    #nav-2{
+        display: block;
+    }
 }
 
