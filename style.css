@@ -18,6 +18,20 @@ body{
 }
 
 #nav-links h2 a{
-    font-size: 15px;
-
+    font-size: 14px;
+    padding: 10px 12px;
+}
+#nav-links-end h2 a{
+    font-size: 14px;
+}
+#nav-end-a{
+    border: 1px solid #57656B;
+    padding: 9px 13px;
+    border-radius: 10px;
+}
+#main-banner{
+    background-image: url(./Assets/Imgs/main-banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
