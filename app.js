@@ -7,9 +7,7 @@ navSvg.addEventListener("click",()=>{
         resMenu.style.left = "0%"
 })
 cross.addEventListener("click",()=>{
-    resMenu.style.left = "100%"
-    console.log("hello");
-    
+    resMenu.style.left = "-100%"
 })
 
 

@@ -8,13 +8,14 @@ body{
     width: 100%;
     height: 100%;
     font-family: "Main-font";
-    color: #2b363b;
-    font-weight: 700;
+    color: #3c4549;
+    font-weight: bold;
+    overflow-x: hidden;
 }
 
 @font-face {
     font-family: "Main-font";
-    src: url(./Assets/Fonts/Poppins/Poppins-Light.ttf);
+    src: url(./Assets/Fonts/Poppins/Poppins-SemiBold.ttf);
 }
 #nav{
     position: fixed;
@@ -72,10 +73,6 @@ body{
     margin-bottom: 3rem;
     border-radius: 12px;
 }
-#nav-items svg:active #nav-2-menu-bar{
-    position: absolute;
-    left: 0%;
-}
 #manu-bar-cross{
     position: absolute;
     right: 11px;
@@ -84,9 +81,6 @@ body{
     border: 1px solid;
     font-size: 16px;
     padding: 0px 4px;
-}
-#nav-2-menu-bar{
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
 }
 /* Media Queries */
 /* Media Queries */
