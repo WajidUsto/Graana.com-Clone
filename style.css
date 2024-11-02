@@ -17,6 +17,10 @@ body{
     font-family: "Main-font";
     src: url(./Assets/Fonts/Poppins/Poppins-SemiBold.ttf);
 }
+@font-face {
+    font-family: "Main-font-thin";
+    src: url(./Assets/Fonts/Poppins/Poppins-Light.ttf);
+}
 #nav{
     position: fixed;
     background: white;
@@ -33,6 +37,27 @@ body{
 #nav-end-a{
     border: 1px solid #57656B;
     padding: 6px 15px;;
+    border-radius: 10px;
+}
+#nav-buy{
+    /* display: none; */
+    position: absolute;
+    width: 22rem;
+    height: 10.5rem;
+    top: 57px;
+    left: 26%;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px black;
+}
+#nav-buy h2{
+    padding: 16px 2px;
+    font-weight: 600;
+    font-family: "Main-font-thin";
+    font-size: 11px;
+}
+#nav-buy h2:hover{
+    background-color: #e5e5e5;
     border-radius: 10px;
 }
 
@@ -82,6 +107,7 @@ body{
     font-size: 16px;
     padding: 0px 4px;
 }
+
 /* Media Queries */
 /* Media Queries */
 
