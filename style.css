@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html,
-body{
+body {
     width: 100%;
     height: 100%;
     font-family: "Main-font";
@@ -17,29 +18,37 @@ body{
     font-family: "Main-font";
     src: url(./Assets/Fonts/Poppins/Poppins-SemiBold.ttf);
 }
+
 @font-face {
     font-family: "Main-font-thin";
     src: url(./Assets/Fonts/Poppins/Poppins-Light.ttf);
 }
-#nav{
+
+#nav {
     position: fixed;
     background: white;
     top: 0;
     width: 100%;
 }
-#nav-links h2 a{
+
+#nav-links h2 a {
     font-size: 13px;
     padding: 10px 12px;
 }
-#nav-links-end h2 a{
+
+#nav-links-end h2 a {
     font-size: 13px;
 }
-#nav-end-a{
+
+#nav-end-a {
     border: 1px solid #57656B;
-    padding: 6px 15px;;
+    padding: 6px 15px;
+    ;
     border-radius: 10px;
 }
-#nav-buy{
+
+#nav-buy {
+    display: none;
     position: absolute;
     width: 20rem;
     height: 9.5rem;
@@ -48,13 +57,64 @@ body{
     border-radius: 15px;
     box-shadow: 1px 1px 4px black;
 }
-#nav-buy h2{
+
+#nav-buy h2 {
     padding: 16px 2px;
     font-weight: 600;
     font-family: "Main-font-thin";
     font-size: 11px;
 }
-#nav-buy h2:hover{
+
+#nav-buy h2:hover {
+    background-color: #e5e5e5;
+    border-radius: 10px;
+}
+
+/* Sell */
+#nav-sell {
+    display: none;
+    position: absolute;
+    width: 20rem;
+    height: 6.5rem;
+    top: 57px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px black;
+}
+
+#nav-sell h2 {
+    padding: 16px 2px;
+    font-weight: 600;
+    font-family: "Main-font-thin";
+    font-size: 11px;
+}
+
+#nav-sell h2:hover {
+    background-color: #e5e5e5;
+    border-radius: 10px;
+}
+
+/* Sell */
+/* rent */
+#nav-rent {
+    display: none;
+    position: absolute;
+    width: 20rem;
+    height: 9.5rem;
+    top: 57px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px black;
+}
+
+#nav-rent h2 {
+    padding: 16px 2px;
+    font-weight: 600;
+    font-family: "Main-font-thin";
+    font-size: 11px;
+}
+
+#nav-rent h2:hover {
     background-color: #e5e5e5;
     border-radius: 10px;
 }
@@ -62,7 +122,7 @@ body{
 
 /* Responsive Manu */
 
-#menu-bar-logo h2{
+#menu-bar-logo h2 {
     border: 1px solid black;
     border-radius: 8px;
     padding: 11px 10px;
@@ -72,22 +132,26 @@ body{
     margin-top: 23px;
     margin-right: 10px;
 }
-#top-bar-link:hover{
+
+#top-bar-link:hover {
     background-color: rgba(0, 0, 0, 0.04);
 }
-#top-bar-border{
+
+#top-bar-border {
     border-bottom: 1px solid #E0E0E0;
     padding-top: 20px;
     width: 107%;
 }
-#top-bar-inner-btn h2{
+
+#top-bar-inner-btn h2 {
     font-size: 11px;
     padding: 4px 7px;
     border-radius: 6px;
     background-color: #E85451;
     color: white;
 }
-#bottom-bar h2{
+
+#bottom-bar h2 {
     padding: 11px 10px;
     text-align: center;
     font-size: 11px;
@@ -96,7 +160,8 @@ body{
     margin-bottom: 3rem;
     border-radius: 12px;
 }
-#manu-bar-cross{
+
+#manu-bar-cross {
     position: absolute;
     right: 11px;
     top: 11px;
@@ -111,46 +176,54 @@ body{
 
 
 @media (max-width:1295px) {
-    #nav-links-end{
+    #nav-links-end {
         padding-right: 3rem;
     }
-    #nav-links{
+
+    #nav-links {
         padding-right: 1rem;
         padding-left: 0px;
     }
 }
+
+
 @media (max-width:1168px) {
-    #nav-links img{
+    #nav-links img {
         margin-right: 45px;
     }
-    #nav-links{
+
+    #nav-links {
         padding-right: 1rem;
         padding-left: 0px;
     }
+
     #nav-links img {
         width: 13rem;
     }
-}
-@media (max-width:1168px) {
     #nav-links img {
         margin-right: 20px;
         width: 15rem;
     }
-    #nav-links{
+
+    #nav-links {
         gap: 2px;
     }
-    #nav-links h2 a{
+
+    #nav-links h2 a {
         font-size: 12px;
         padding: 10px 5px;
     }
-    #nav-links-end h2 a{
+
+    #nav-links-end h2 a {
         font-size: 12px;
         padding: 10px 5px;
     }
+
     #nav-links img {
         width: 12rem;
     }
-    #nav-buy{
+
+    #nav-buy {
         position: absolute;
         width: 15rem;
         height: 9rem;
@@ -159,31 +232,70 @@ body{
         border-radius: 15px;
         box-shadow: 1px 1px 4px black;
     }
-    #nav-buy h2 a{
+
+    #nav-buy h2 a {
+        padding: 12px 15px;
+        font-weight: 600;
+        font-family: "Main-font-thin";
+        font-size: 11px;
+    }
+
+    #nav-sell {
+        position: absolute;
+        width: 16rem;
+        height: 6rem;
+        top: 57px;
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 1px 1px 4px black;
+    }
+
+    #nav-sell h2 a {
+        padding: 12px 15px;
+        font-weight: 600;
+        font-family: "Main-font-thin";
+        font-size: 11px;
+    }
+    #nav-rent {
+        position: absolute;
+        width: 16rem;
+        height: 6rem;
+        top: 57px;
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 1px 1px 4px black;
+    }
+
+    #nav-rent h2 a {
         padding: 12px 15px;
         font-weight: 600;
         font-family: "Main-font-thin";
         font-size: 11px;
     }
 }
+
 @media (max-width:952px) {
     #nav-links img {
         margin-left: 20px;
         width: 13rem;
     }
-    #nav-links h2 a{
+
+    #nav-links h2 a {
         font-size: 13.5px;
         padding: 10px 5px;
     }
-    #nav-links-end{
+
+    #nav-links-end {
         gap: 20px;
         font-size: 12px;
         padding: 10px 5px;
     }
+
     #nav-links img {
         width: 11rem;
     }
-    #nav-buy{
+
+    #nav-buy {
         position: absolute;
         width: 15rem;
         height: 9rem;
@@ -192,35 +304,72 @@ body{
         border-radius: 15px;
         box-shadow: 1px 1px 4px black;
     }
-    #nav-buy h2 a{
+
+    #nav-buy h2 a {
         padding: 12px 15px;
         font-weight: 600;
         font-family: "Main-font-thin";
         font-size: 11px;
     }
+    #nav-sell {
+        position: absolute;
+        width: 14rem;
+        height: 6rem;
+        top: 57px;
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 1px 1px 4px black;
+    }
+    #nav-sell h2 a {
+        padding: 14px 8px;
+        font-weight: 600;
+        font-family: "Main-font-thin";
+        font-size: 11px;
+    }
+    #nav-rent {
+        position: absolute;
+        width: 14rem;
+        height: 6rem;
+        top: 57px;
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 1px 1px 4px black;
+    }
+    #nav-rent h2 a {
+        padding: 14px 8px;
+        font-weight: 600;
+        font-family: "Main-font-thin";
+        font-size: 11px;
+    }
 }
+
 @media (max-width:824px) {
     #nav-links img {
         margin-left: 20px;
         width: 10rem;
     }
-    #nav-links h2 a{
+
+    #nav-links h2 a {
         font-size: 12px;
         padding: 10px 5px;
     }
-    #nav-links-end h2 a{
+
+    #nav-links-end h2 a {
         font-size: 12px;
         padding: 10px 5px;
     }
-    #nav-links-end{
+
+    #nav-links-end {
         gap: 11px;
         font-size: 12px;
         padding: 10px 5px;
     }
+
     #nav-end-a {
         padding: 7px 6px;
     }
-    #nav-buy{
+
+    #nav-buy {
         position: absolute;
         width: 15rem;
         height: 9rem;
@@ -229,39 +378,63 @@ body{
         border-radius: 15px;
         box-shadow: 1px 1px 4px black;
     }
-    #nav-buy h2 a{
+
+    #nav-buy h2 a {
+        padding: 12px 15px;
+        font-weight: 600;
+        font-family: "Main-font-thin";
+        font-size: 11px;
+    }
+    #nav-rent {
+        position: absolute;
+        width: 15rem;
+        height: 9rem;
+        top: 57px;
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 1px 1px 4px black;
+    }
+
+    #nav-rent h2 a {
         padding: 12px 15px;
         font-weight: 600;
         font-family: "Main-font-thin";
         font-size: 11px;
     }
 }
+
 @media (max-width:770px) {
-    #nav{
+    #nav {
         display: none;
     }
-    #main-banner img{
+
+    #main-banner img {
         display: none;
     }
-    #nav-2{
+
+    #nav-2 {
         display: block;
     }
-    #nav-items{
+
+    #nav-items {
         display: flex;
         justify-content: center;
     }
-    #nav-items img{
+
+    #nav-items img {
         position: fixed;
         top: 0;
         width: 8rem;
-        
+
     }
-    #nav-items svg{
+
+    #nav-items svg {
         position: absolute;
         top: 19px;
         left: 25px;
     }
-    #responsive-banner{
+
+    #responsive-banner {
         position: fixed;
         top: 0;
         background-image: url(./Assets/Imgs/main-banner.webp);
@@ -271,7 +444,8 @@ body{
         width: 100%;
         min-height: 59vh;
     }
-    #nav-buy{
+
+    #nav-buy {
         position: absolute;
         width: 13rem;
         height: 8rem;
@@ -280,11 +454,11 @@ body{
         border-radius: 15px;
         box-shadow: 1px 1px 4px black;
     }
-    #nav-buy h2 a{
+
+    #nav-buy h2 a {
         padding: 14px 2px;
         font-weight: 600;
         font-family: "Main-font-thin";
         font-size: 11px;
     }
 }
-
