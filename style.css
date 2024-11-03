@@ -40,12 +40,10 @@ body{
     border-radius: 10px;
 }
 #nav-buy{
-    /* display: none; */
     position: absolute;
-    width: 22rem;
-    height: 10.5rem;
+    width: 20rem;
+    height: 9.5rem;
     top: 57px;
-    left: 26%;
     background: #ffffff;
     border-radius: 15px;
     box-shadow: 1px 1px 4px black;
@@ -152,6 +150,21 @@ body{
     #nav-links img {
         width: 12rem;
     }
+    #nav-buy{
+        position: absolute;
+        width: 15rem;
+        height: 9rem;
+        top: 57px;
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 1px 1px 4px black;
+    }
+    #nav-buy h2 a{
+        padding: 12px 15px;
+        font-weight: 600;
+        font-family: "Main-font-thin";
+        font-size: 11px;
+    }
 }
 @media (max-width:952px) {
     #nav-links img {
@@ -169,6 +182,21 @@ body{
     }
     #nav-links img {
         width: 11rem;
+    }
+    #nav-buy{
+        position: absolute;
+        width: 15rem;
+        height: 9rem;
+        top: 57px;
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 1px 1px 4px black;
+    }
+    #nav-buy h2 a{
+        padding: 12px 15px;
+        font-weight: 600;
+        font-family: "Main-font-thin";
+        font-size: 11px;
     }
 }
 @media (max-width:824px) {
@@ -191,6 +219,21 @@ body{
     }
     #nav-end-a {
         padding: 7px 6px;
+    }
+    #nav-buy{
+        position: absolute;
+        width: 15rem;
+        height: 9rem;
+        top: 57px;
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 1px 1px 4px black;
+    }
+    #nav-buy h2 a{
+        padding: 12px 15px;
+        font-weight: 600;
+        font-family: "Main-font-thin";
+        font-size: 11px;
     }
 }
 @media (max-width:770px) {
@@ -227,6 +270,21 @@ body{
         background-size: cover;
         width: 100%;
         min-height: 59vh;
+    }
+    #nav-buy{
+        position: absolute;
+        width: 13rem;
+        height: 8rem;
+        top: 57px;
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 1px 1px 4px black;
+    }
+    #nav-buy h2 a{
+        padding: 14px 2px;
+        font-weight: 600;
+        font-family: "Main-font-thin";
+        font-size: 11px;
     }
 }
 

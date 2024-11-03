@@ -19,6 +19,7 @@ navBuyBtn.addEventListener("mouseover",()=>{
 })
 navBuyDiv.addEventListener("mouseleave",()=>{
     navBuyDiv.style.display = "none"
+
 })
 
 
