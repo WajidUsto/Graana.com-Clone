@@ -9,7 +9,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Main-font";
-    color: #3c4549;
+    color: rgb(55, 71, 79);
     font-weight: bold;
     overflow-x: hidden;
 }
@@ -170,7 +170,18 @@ body {
     font-size: 16px;
     padding: 0px 4px;
 }
-
+#sign-up-div{
+    width: 410px;
+    height: 40rem;
+    background-color: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 16px;
+    box-shadow: rgba(-0, -0, -0, 0.8) 0px 10px 20px;
+    z-index: 99;
+}
 /* Media Queries */
 /* Media Queries */
 
