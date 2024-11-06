@@ -18,7 +18,10 @@ body {
     font-family: "Main-font";
     src: url(./Assets/Fonts/Poppins/Poppins-SemiBold.ttf);
 }
-
+@font-face {
+    font-family: "Main-font-light";
+    src: url(./Assets/Fonts/Poppins/Poppins-Thin.ttf);
+}
 @font-face {
     font-family: "Main-font-thin";
     src: url(./Assets/Fonts/Poppins/Poppins-Light.ttf);
@@ -181,6 +184,11 @@ body {
     border-radius: 16px;
     box-shadow: rgba(-0, -0, -0, 0.8) 0px 10px 20px;
     z-index: 99;
+}
+#sign-in-top-h3{
+    font-family: "Main-font-light";
+    font-weight: 800;
+    color: #7e7e7e;
 }
 /* Media Queries */
 /* Media Queries */
