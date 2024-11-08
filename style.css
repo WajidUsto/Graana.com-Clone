@@ -301,6 +301,7 @@ input:valid~label {
     padding: 10px 33px;
     border-radius: 8px;
     font-size: 14px;
+    transition: 0.2s ease-in ;
 }
 
 

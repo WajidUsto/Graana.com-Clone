@@ -70,5 +70,23 @@ navRentDiv.addEventListener("mouseleave",()=>{
 // rent Btn
 
 
-// Nav Bar
-// Nav Bar
+// Nav Bar Ended
+// Nav Bar Ended
+
+
+// Banner Section
+// Banner Section
+
+// Banner Btns
+const bannBuyBtn = document.querySelector("#banner-buy-btn")
+const bannRentBtn = document.querySelector("#banner-rent-btn")
+
+bannRentBtn.addEventListener("click" ,()=>{
+    bannRentBtn.style.backgroundColor = "#FFFFFF"
+    bannBuyBtn.style.backgroundColor = "#C5C9C4"
+})
+bannBuyBtn.addEventListener("click" ,()=>{
+    bannBuyBtn.style.backgroundColor = "#FFFFFF"
+    bannRentBtn.style.backgroundColor = "#C5C9C4"
+})
+// Banner Btns
