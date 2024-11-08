@@ -247,7 +247,7 @@
                         <h3 id="sign-in-top-h3" class="text-[14px]">Welcome back!</h3>
                         <div id="inputs" class="mt-[2rem]">
                             <div class="input-group ">
-                                <input required="" type="number" name="text" autocomplete="off" class="input relative" max="11" min="11">
+                                <input required="" placeholder="Phone Number" type="number" name="text" autocomplete="off" class="input relative" max="11" min="11">
                                     <svg class="absolute w-[25px] h-[22px] top-[12px] left-[17px]" xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="-75 -40 120 80"><path fill="#fff" d="M-75-40H45v80H-75z"/><path fill="#01411C" d="M-45-40h90v80h-90z"/><circle r="24" fill="#fff"/><circle r="22" cx="-7" cy="-40" fill="#01411C" transform="rotate(-41.634 45 -40)"/><path fill="#fff" d="m8.751-17.959 10.11 11.373L3.997-9.844l13.94-6.1-7.692 13.129z"/></svg>
                                 <svg class="absolute top-[20px] left-[60px] w-[16px] h-[10px] cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="14" height="7" viewBox="0 0 14 7" fill="none">
                                     <path d="M1 1.33331L7.22785 6.13331L13.4557 1.33331" stroke="#E85451" stroke-linecap="round" stroke-linejoin="round"/>
@@ -255,7 +255,17 @@
                                     <h5 class="absolute top-[15px] left-[93px] text-[12px] cursor-pointer">+92</h5>
                                 <label class="user-label  text-[12px] text-[#7E7E7E]">Phone Number</label>
                             </div>
-                            <input required="" type="password" name="text" autocomplete="off" class="input relative mt-[1rem] p-[10px]" max="11" min="11" placeholder="password"> 
+                            <div class="input-group" id="pass-group">
+                            <input id="pass-input" required="" type="password" name="text" autocomplete="off" class="input relative mt-[1rem] p-[10px]" max="11" min="11"> 
+                            <label id="pass-label" class="user-label text-[12px] text-[#7E7E7E] pl-[0] pt-[16px]">Password</label>
+                            <h5 class="absolute top-[32px] right-[15px] text-[11px] text-[#EF5350] cursor-pointer">Show</h5>
+                        </div>
+                        </div>
+                        <div id="login-btn">
+                            <h3 class="bg-[#37474F] p-[12px] mt-[15px] w-full text-[white] text-center rounded-[5px]"><a href="#">LOGIN</a></h3>
+                        </div>
+                        <div id="forget-link">
+                            <h5 class="mt-[15px] text-[red] text-center"><a href="#">Forget Password</a></h5>
                         </div>
                     </div>
                 </div>
