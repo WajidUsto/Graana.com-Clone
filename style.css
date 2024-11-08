@@ -187,6 +187,7 @@ body {
     border-radius: 16px;
     box-shadow: rgba(-0, -0, -0, 0.8) 0px 10px 20px;
     z-index: 99;
+    display: none;
 }
 
 #sign-in-top-h3 {
@@ -280,7 +281,9 @@ input:valid~label {
     top: 50%;
     position: absolute;
 }
-
+#register-link h4{
+    font-family: "Main-font-thin";
+}
 
 
 

@@ -17,7 +17,19 @@ let navSellDiv = document.querySelector("#nav-sell")
 let navRentBtn = document.querySelector("#nav-rent-btn")
 let navRentDiv = document.querySelector("#nav-rent")
 // nav rent
+// Sign up
+let signUpDiv = document.querySelector("#sign-up-div")
+let signInBtn = document.querySelector("#nav-end-a")
+let signInCross = document.querySelector("#sign-in-cross")
 
+    signInBtn.addEventListener("click",()=>{
+        signUpDiv.style.display = "block"
+    })
+    signInCross.addEventListener("click",()=>{
+        signUpDiv.style.display = "none"
+    })
+
+// Sign up
 navSvg.addEventListener("click",()=>{
         resMenu.style.left = "0%"
 })
