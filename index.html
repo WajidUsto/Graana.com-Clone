@@ -242,14 +242,20 @@
             </div>
             <div id="sign-up-div">
                 <div id="sign-up">
-                    <div id="sign-in-top" class="py-[40px] px-[30px]">
+                    <div id="sign-in-top" class="py-[40px] px-[37px]">
                         <h1 class="text-[28px]">Sign in to your account</h1>
                         <h3 id="sign-in-top-h3" class="text-[14px]">Welcome back!</h3>
                         <div id="inputs" class="mt-[2rem]">
-                            <div class="input-group w-[100%]">
-                                <input required="" type="number" name="text" autocomplete="off" class="input">
+                            <div class="input-group ">
+                                <input required="" type="number" name="text" autocomplete="off" class="input relative" max="11" min="11">
+                                    <svg class="absolute w-[25px] h-[22px] top-[12px] left-[17px]" xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="-75 -40 120 80"><path fill="#fff" d="M-75-40H45v80H-75z"/><path fill="#01411C" d="M-45-40h90v80h-90z"/><circle r="24" fill="#fff"/><circle r="22" cx="-7" cy="-40" fill="#01411C" transform="rotate(-41.634 45 -40)"/><path fill="#fff" d="m8.751-17.959 10.11 11.373L3.997-9.844l13.94-6.1-7.692 13.129z"/></svg>
+                                <svg class="absolute top-[20px] left-[60px] w-[16px] h-[10px] cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="14" height="7" viewBox="0 0 14 7" fill="none">
+                                    <path d="M1 1.33331L7.22785 6.13331L13.4557 1.33331" stroke="#E85451" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <h5 class="absolute top-[15px] left-[93px] text-[12px] cursor-pointer">+92</h5>
                                 <label class="user-label  text-[12px] text-[#7E7E7E]">Phone Number</label>
                             </div>
+                            <input required="" type="password" name="text" autocomplete="off" class="input relative mt-[1rem] p-[10px]" max="11" min="11" placeholder="password"> 
                         </div>
                     </div>
                 </div>
