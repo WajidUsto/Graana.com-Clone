@@ -260,6 +260,38 @@ input:valid~label {
 #forget-link h5{
     font-family: "Main-font-thin";
 }
+#Or-Devider h4::before{
+    content: "";
+    display: block;
+    width: 136px;
+    height: 1px;
+    background: #a1a1a196;
+    left: 0px;
+    top: 50%;
+    position: absolute;
+}
+#Or-Devider h4::after{
+    content: "";
+    display: block;
+    width: 136px;
+    height: 1px;
+    background: rgba(161, 161, 161, 0.589);
+    right: 0px;
+    top: 50%;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Queries */
 /* Media Queries */
