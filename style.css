@@ -175,8 +175,8 @@ body {
     font-size: 16px;
     padding: 0px 4px;
 }
-
-#sign-up-div {
+/* Sign In  */
+#sign-in-div {
     width: 410px;
     height: 40rem;
     background-color: #FFFFFF;
@@ -195,7 +195,30 @@ body {
     font-weight: 800;
     color: #7e7e7e;
 }
+/* Sign In  */
 
+/* Sign Up */
+
+#sign-up-div {
+    width: 410px;
+    min-height: 40rem;
+    background-color: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 16px;
+    box-shadow: rgba(-0, -0, -0, 0.8) 0px 10px 20px;
+    z-index: 99;
+    display: none;
+}
+
+#sign-up-top-h3 {
+    font-family: "Main-font-light";
+    font-weight: 800;
+    color: #7e7e7e;
+}
+/* Sign Up */
 .input-group {
     position: relative;
 }

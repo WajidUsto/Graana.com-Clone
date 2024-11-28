@@ -17,19 +17,46 @@ let navSellDiv = document.querySelector("#nav-sell")
 let navRentBtn = document.querySelector("#nav-rent-btn")
 let navRentDiv = document.querySelector("#nav-rent")
 // nav rent
-// Sign up
-let signUpDiv = document.querySelector("#sign-up-div")
+// Sign In
+let signInDiv = document.querySelector("#sign-in-div")
 let signInBtn = document.querySelector("#nav-end-a")
 let signInCross = document.querySelector("#sign-in-cross")
+let SignInLink = document.querySelector("#register-link h4 a")
 
     signInBtn.addEventListener("click",()=>{
-        signUpDiv.style.display = "block"
+        signInDiv.style.display = "block"
     })
     signInCross.addEventListener("click",()=>{
-        signUpDiv.style.display = "none"
+        signInDiv.style.display = "none"
+    })
+    SignInLink.addEventListener("click",()=>{
+        signInDiv.style.display = "none"
+    })
+    SignInLink.addEventListener("click",()=>{
+        SignupDiv.style.display = "block"
     })
 
-// Sign up
+// Sign In
+
+// Sign Up
+let SignupLink = document.querySelector("#sign-up-register-link h4 a")
+let SignupDiv = document.querySelector("#sign-up-div")
+let crossSignUp = document.querySelector("#sign-up-cross")
+
+    SignupLink.addEventListener("click",()=>{
+        SignupDiv.style.display = "block"
+    })
+    crossSignUp.addEventListener("click",()=>{
+        SignupDiv.style.display = "none"
+    })
+    SignupLink.addEventListener("click",()=>{
+        SignupDiv.style.display = "none"
+    })
+    SignupLink.addEventListener("click",()=>{
+        SignupDiv.style.display = "block"
+    })
+
+// Sign Up
 navSvg.addEventListener("click",()=>{
         resMenu.style.left = "0%"
 })
